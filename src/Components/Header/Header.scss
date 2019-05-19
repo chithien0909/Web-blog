@@ -1,0 +1,23 @@
+.Header{
+  position: fixed;
+  left: 0;
+  top: 10%;
+  z-index: 10000;
+  .ant-btn{
+    left: 0;
+    top: 10px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #001529;
+    border-color: #001529;;
+    z-index: 1;
+  }
+  .ant-menu{
+    margin-top: 70px;
+    text-align: left;
+  }
+  a{
+    color: #fff;
+  }
+}

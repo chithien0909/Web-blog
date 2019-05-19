@@ -1,0 +1,26 @@
+.Login{
+  background: #fff;
+  margin: 0 auto;
+  max-width: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  .form-input{
+    width: 300px;
+    .title{
+      font-size: 30px;
+      color: cornflowerblue;
+      text-transform: capitalize;
+      font-weight: bold;
+      line-height: 60px;
+    }
+    .ant-form-item-control{
+      margin-bottom: 20px;
+    }
+    input[type='text'],input[type='password']{
+      height: 40px;
+      width: 300px;
+    }
+  }
+}

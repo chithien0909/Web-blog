@@ -1,0 +1,23 @@
+.Login {
+  background: #fff;
+  margin: 0 auto;
+  max-width: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+  .Login .form-input {
+    width: 300px; }
+    .Login .form-input .title {
+      font-size: 30px;
+      color: cornflowerblue;
+      text-transform: capitalize;
+      font-weight: bold;
+      line-height: 60px; }
+    .Login .form-input .ant-form-item-control {
+      margin-bottom: 20px; }
+    .Login .form-input input[type='text'], .Login .form-input input[type='password'] {
+      height: 40px;
+      width: 300px; }
+
+/*# sourceMappingURL=Login.css.map */
